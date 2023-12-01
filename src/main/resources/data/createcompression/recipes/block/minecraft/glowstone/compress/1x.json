@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "createcompression:glowstone_block_1x",
+    "count": 1
+  }
+}

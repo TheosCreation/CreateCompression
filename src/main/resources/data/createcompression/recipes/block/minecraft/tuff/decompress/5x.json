@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:tuff_block_5x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:tuff_block_4x",
+    "count": 9
+  }
+}

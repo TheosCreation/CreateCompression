@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:oak_plank_block_3x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:oak_plank_block_2x",
+    "count": 9
+  }
+}
