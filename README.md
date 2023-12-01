@@ -1,12 +1,14 @@
-# AllTheCompressed
+# Create Compression
 
-[![AllTheCompressed](http://cf.way2muchnoise.eu/514045.svg "AllTheCompressed") AllTheCompressed](https://www.curseforge.com/minecraft/mc-mods/allthecompressed)
+[CreateCompression](https://www.curseforge.com/minecraft/mc-mods/create-compression)
 
 Adds 1-9x compressed versions of blocks
 
-Also adds a lot of recipes for bulk crafting
+Very Useful for Bulk storage and modpack development
 
-Blocks Added:
+Main use is for my modpack: [CreateBlock](https://www.curseforge.com/minecraft/modpacks/create-block)
+
+Current Blocks:
 
 Vanilla
 - ![](https://github.com/TheosCreation/AllTheCompressed/blob/1.18/images/acacia_log.png) Acacia Log
@@ -44,6 +46,7 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lapis.png) Lapis
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/melon.png) Melon
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/netherite_block.png) Netherite
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/nether_star_block.png) Nether Star
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/netherrack.png) Netherrack
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/oak_log.png) Oak Log
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/oak_planks.png) Oak Plank
@@ -63,45 +66,6 @@ Vanilla
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/terracotta.png) Terracotta
 - ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/tuff.png) Tuff
 
-ATM
-
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/allthemodium_block.png) Allthemodium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/vibranium_block.png) Vibranium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/unobtainium_block.png) Unobtainum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/va_alloy_block.png) Vibranium - Allthemodium Alloy
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/ua_alloy_block.png) Unobtainum - Allthemodium Alloy
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/uv_alloy_block.png) Unobtainum - Vibranium Alloy
-
-ATO
-
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/aluminum_block.png) Aluminum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/bronze_block.png) Bronze
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/constantan_block.png) Constantan
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/electrum_block.png) Electrum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/enderium_block.png) Enderium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/invar_block.png) Invar
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/iridium_block.png) Iridium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lead_block.png) Lead
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/lumium_block.png) Lumium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/nickel_block.png) Nickel
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/osmium_block.png) Osmium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/peridot_block.png) Peridot
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/platinum_block.png) Platinum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/ruby_block.png) Ruby
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/sapphire_block.png) Sapphire
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/signalum_block.png) Signalum
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/silver_block.png) Silver
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/steel_block.png) Steel
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/tin_block.png) Tin
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/uranium_block.png) Uranium
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/zinc_block.png) Zinc
-
-ATT
-
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/atm_star_block.png) ATM Star
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/nether_star_block.png) Nether Star
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/ender_pearl_block.png) Ender Pearl
-
-Productive Bees
-
-- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/wax.png) Wax Block
+Create
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/tuff.png) Zinc
+- ![](https://github.com/Pdiddy973/AllTheCompressed/blob/1.18/images/tuff.png) Brass
