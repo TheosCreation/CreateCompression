@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.GlassBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.Material;
 
-public class Glass extends GlassBlock {
+public class Glass extends Block {
     public Glass() {
         super(Properties.of(Material.GLASS)
             .sound(SoundType.GLASS)
