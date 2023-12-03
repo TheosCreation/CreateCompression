@@ -229,5 +229,18 @@ public class JEICompat implements IModPlugin {
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:stone_block_9x")))
             ));
         }
+        if (ModList.get().isLoaded("create")) {
+            ingredientManager.removeIngredientsAtRuntime(VanillaTypes.ITEM_STACK, Arrays.asList(
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_1x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_2x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_3x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_4x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_5x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_6x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_7x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_8x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:zinc_block_9x")))
+            ));
+        }
     }
 }
