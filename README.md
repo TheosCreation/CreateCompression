@@ -1,4 +1,4 @@
-# Create Compression
+# Create Compressed
 
 [CreateCompression](https://www.curseforge.com/minecraft/mc-mods/create-compression)
 
@@ -11,7 +11,7 @@ Main use is for my modpack: [CreateBlock](https://www.curseforge.com/minecraft/m
 Current Blocks:
 
 Vanilla
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/acacia_log) Acacia Log
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/acacia_log.png) Acacia Log
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/acacia_planks.png) Acacia Plank
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/amethyst.png) Amethyst
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/andesite.png) Andesite
@@ -46,7 +46,6 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/lapis.png) Lapis
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/melon.png) Melon
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/netherite_block.png) Netherite
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/nether_star_block.png) Nether Star
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/netherrack.png) Netherrack
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/oak_log.png) Oak Log
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/oak_planks.png) Oak Plank
@@ -65,6 +64,9 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/stone.png) Stone
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/terracotta.png) Terracotta
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/tuff.png) Tuff
+
+New Blocks
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/nether_star_block.png) Nether Star
 
 Create
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/tuff.png) Zinc

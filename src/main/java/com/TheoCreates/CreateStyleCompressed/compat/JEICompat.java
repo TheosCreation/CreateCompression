@@ -257,7 +257,16 @@ public class JEICompat implements IModPlugin {
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:experience_block_6x"))),
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:experience_block_7x"))),
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:experience_block_8x"))),
-                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:experience_block_9x")))
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:experience_block_9x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_1x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_2x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_3x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_4x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_5x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_6x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_7x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_8x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createstylecompressed:brass_block_9x")))
             ));
         }
     }

@@ -11,6 +11,7 @@ import java.util.function.Supplier;
 public enum CreateStyleCompressedType {
     EXPERIENCE("experience", Experience::new),
     ZINC("zinc", Zinc::new),
+    BRASS("brass", Brass::new),
     NETHER_STAR("nether_star", Nether_Star::new),
 
     //Minecraft
