@@ -69,5 +69,6 @@ New Blocks
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/nether_star_block.png) Nether Star
 
 Create
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/tuff.png) Zinc
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/tuff.png) Brass
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/zinc_block.png) Zinc
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/brass_block.png) Brass
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/experience_block.png) Experience
