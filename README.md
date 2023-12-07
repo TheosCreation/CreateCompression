@@ -11,7 +11,7 @@ Main use is for my modpack: [CreateBlock](https://www.curseforge.com/minecraft/m
 Current Blocks:
 
 Vanilla
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/acacia_log) Acacia Log
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/acacia_log.png) Acacia Log
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/acacia_planks.png) Acacia Plank
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/amethyst.png) Amethyst
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/andesite.png) Andesite
