@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public enum CreateStyleCompressedType {
-    ZINC_BLOCK("zinc_block", Zinc_Block::new),
+    EXPERIENCE("experience", Experience::new),
+    ZINC("zinc", Zinc::new),
     NETHER_STAR("nether_star", Nether_Star::new),
 
     //Minecraft

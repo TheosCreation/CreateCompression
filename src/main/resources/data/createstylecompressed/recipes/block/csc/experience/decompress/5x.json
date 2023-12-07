@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createstylecompressed:experience_block_5x"
+    }
+  ],
+  "result": {
+    "item": "createstylecompressed:experience_block_4x",
+    "count": 9
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "createstylecompressed:nether_star_block",
+    "createstylecompressed:nether_star_block_1x",
+    "createstylecompressed:nether_star_block_2x",
+    "createstylecompressed:nether_star_block_3x",
+    "createstylecompressed:nether_star_block_4x",
+    "createstylecompressed:nether_star_block_5x",
+    "createstylecompressed:nether_star_block_6x",
+    "createstylecompressed:nether_star_block_7x",
+    "createstylecompressed:nether_star_block_8x",
+    "createstylecompressed:nether_star_block_9x"
+  ]
+}
