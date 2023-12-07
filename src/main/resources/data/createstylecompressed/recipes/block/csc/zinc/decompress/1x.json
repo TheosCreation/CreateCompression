@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createstylecompressed:zinc_block_1x"
+    }
+  ],
+  "result": {
+    "item": "create:zinc_block",
+    "count": 9
+  }
+}

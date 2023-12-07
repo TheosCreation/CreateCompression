@@ -1,0 +1,33 @@
+{
+  "type": "immersiveengineering:arc_furnace",
+  "results": [{
+      "item": "createstylecompressed:steel_block_5x"
+  }],
+  "additives": [{
+          "item": "createstylecompressed:coal_block_5x"
+      },
+      {
+          "item": "createstylecompressed:coal_block_5x"
+      }
+  ],
+  "input": {
+      "item": "createstylecompressed:iron_block_5x"
+  },
+  "time": 1200,
+  "energy": 614400,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "immersiveengineering"
+          }
+      ]
+  }]
+}

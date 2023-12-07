@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createstylecompressed:pumpkin_block_5x"
+    }
+  },
+  "result": {
+    "item": "createstylecompressed:pumpkin_block_6x",
+    "count": 1
+  }
+}

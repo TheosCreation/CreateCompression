@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createstylecompressed:tuff_block_8x"
+    }
+  ],
+  "result": {
+    "item": "createstylecompressed:tuff_block_7x",
+    "count": 9
+  }
+}

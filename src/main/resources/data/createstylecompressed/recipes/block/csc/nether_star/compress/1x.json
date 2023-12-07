@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createstylecompressed:nether_star_block"
+    }
+  },
+  "result": {
+    "item": "createstylecompressed:nether_star_block_1x",
+    "count": 1
+  }
+}

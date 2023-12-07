@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createstylecompressed:melon_block_9x"
+    }
+  ],
+  "result": {
+    "item": "createstylecompressed:melon_block_8x",
+    "count": 9
+  }
+}

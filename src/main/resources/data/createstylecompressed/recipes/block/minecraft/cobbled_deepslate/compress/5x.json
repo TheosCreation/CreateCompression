@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createstylecompressed:cobbled_deepslate_block_4x"
+    }
+  },
+  "result": {
+    "item": "createstylecompressed:cobbled_deepslate_block_5x",
+    "count": 1
+  }
+}
