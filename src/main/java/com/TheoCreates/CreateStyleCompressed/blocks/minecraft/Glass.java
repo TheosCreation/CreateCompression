@@ -10,6 +10,11 @@ public class Glass extends Block {
         super(Properties.of(Material.GLASS)
             .sound(SoundType.GLASS)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(7.0f, 20.0f))
+            .noOcclusion();
     }
+    @Override
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
+		return 0;
+	}
 }
