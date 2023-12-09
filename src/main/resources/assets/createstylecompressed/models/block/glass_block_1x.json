@@ -15,7 +15,7 @@
     },
     "translucent": {
       "parent": "block/cube_all",
-      "render_type": "minecraft:cutout",
+      "render_type": "minecraft:translucent",
       "textures": {
         "all": "createstylecompressed:block/layer_1"
       }

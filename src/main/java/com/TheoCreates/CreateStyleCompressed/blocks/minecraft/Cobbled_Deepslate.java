@@ -9,6 +9,6 @@ public class Cobbled_Deepslate extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.DEEPSLATE)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(3.5f, 6.0f));
     }
 }

@@ -8,7 +8,6 @@ public class Grass extends Block {
     public Grass() {
         super(Properties.of(Material.GRASS)
             .sound(SoundType.GRASS)
-            .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.6f));
     }
 }

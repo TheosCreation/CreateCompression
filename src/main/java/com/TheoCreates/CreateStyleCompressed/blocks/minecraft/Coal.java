@@ -10,6 +10,6 @@ public class Coal extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.STONE)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(5.0f, 6.0f));
     }
 }

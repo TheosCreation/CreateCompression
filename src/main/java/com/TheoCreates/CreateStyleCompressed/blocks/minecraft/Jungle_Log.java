@@ -8,7 +8,6 @@ public class Jungle_Log extends Block {
     public Jungle_Log() {
         super(Properties.of(Material.WOOD)
             .sound(SoundType.WOOD)
-            .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(2.0f, 2.0f));
     }
 }

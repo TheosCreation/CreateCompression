@@ -10,7 +10,6 @@ public class Glowstone extends Block {
         super(Properties.of(Material.GLASS)
             .lightLevel((b) -> 15)
             .sound(SoundType.GLASS)
-            .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.3f));
     }
 }

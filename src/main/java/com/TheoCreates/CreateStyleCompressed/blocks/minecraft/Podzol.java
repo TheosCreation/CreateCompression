@@ -6,8 +6,8 @@ import net.minecraft.world.level.material.Material;
 
 public class Podzol extends Block {
     public Podzol() {
-        super(Properties.of(Material.GRASS)
+        super(Properties.of(Material.DIRT)
             .sound(SoundType.GRAVEL)
-            .strength(7.0f, 20.0f));
+            .strength(0.5f));
     }
 }

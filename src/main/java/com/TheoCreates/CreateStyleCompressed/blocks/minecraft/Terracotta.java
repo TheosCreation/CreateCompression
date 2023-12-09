@@ -8,6 +8,6 @@ public class Terracotta extends Block {
     public Terracotta() {
         super(Properties.of(Material.STONE, MaterialColor.COLOR_ORANGE)
             .requiresCorrectToolForDrops()
-            .strength(1.25f, 4.2f));
+            .strength(1.25F, 4.2F));
     }
 }

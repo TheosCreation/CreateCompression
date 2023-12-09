@@ -9,6 +9,6 @@ public class Granite extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.STONE)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(1.5f, 6.0f));
     }
 }

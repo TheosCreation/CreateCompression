@@ -7,8 +7,8 @@ import net.minecraft.world.level.material.Material;
 
 public class Pumpkin extends Block {
     public Pumpkin() {
-        super(BlockBehaviour.Properties.of(Material.PLANT)
+        super(BlockBehaviour.Properties.of(Material.VEGETABLE)
             .sound(SoundType.WOOD)
-            .strength(7.0f, 20.0f));
+            .strength(1.0f));
     }
 }

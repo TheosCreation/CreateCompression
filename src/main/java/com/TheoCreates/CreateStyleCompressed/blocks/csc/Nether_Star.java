@@ -10,6 +10,6 @@ public class Nether_Star extends Block {
             .lightLevel((b) -> 15)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(25.0f, 800.0f));
     }
 }

@@ -6,9 +6,9 @@ import net.minecraft.world.level.material.Material;
 
 public class Hay extends Block {
     public Hay() {
-        super(Properties.of(Material.WOOL)
-            .sound(SoundType.GRAVEL)
+        super(Properties.of(Material.GRASS)
+            .sound(SoundType.GRASS)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.5f));
     }
 }

@@ -10,6 +10,6 @@ public class Netherrack extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.NETHERRACK)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.4f));
     }
 }

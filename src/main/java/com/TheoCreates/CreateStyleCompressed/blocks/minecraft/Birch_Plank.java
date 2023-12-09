@@ -8,7 +8,6 @@ public class Birch_Plank extends Block {
     public Birch_Plank() {
         super(Properties.of(Material.WOOD)
             .sound(SoundType.WOOD)
-            .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(2.0f, 3.0f));
     }
 }

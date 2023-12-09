@@ -7,9 +7,9 @@ import net.minecraft.world.level.material.Material;
 
 public class Honey extends Block {
     public Honey() {
-        super(Properties.of(Material.SPONGE)
+        super(Properties.of(Material.CLAY)
             .sound(SoundType.HONEY_BLOCK)
-            .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .speedFactor(0.4F).jumpFactor(0.5F)
+            .noOcclusion());
     }
 }

@@ -6,10 +6,10 @@ import net.minecraft.world.level.material.Material;
 
 public class Soul_Soil extends Block {
     public Soul_Soil() {
-        super(Properties.of(Material.SAND)
+        super(Properties.of(Material.DIRT)
             .sound(SoundType.SOUL_SOIL)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.5f));
     }
 }
 

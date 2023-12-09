@@ -10,6 +10,6 @@ public class Cobblestone extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.STONE)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(2.0f, 6.0f));
     }
 }

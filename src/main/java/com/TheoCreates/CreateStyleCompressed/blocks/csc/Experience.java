@@ -9,6 +9,6 @@ public class Experience extends Block {
         super(Properties.of(Material.AMETHYST)
             .lightLevel((b) -> 15)
             .sound(SoundType.AMETHYST)
-            .strength(7.0f, 20.0f));
+            .strength(3.0f, 6.0f));
     }
 }

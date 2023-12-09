@@ -10,6 +10,6 @@ public class Snow extends Block {
         super(Properties.of(Material.SNOW)
             .sound(SoundType.SNOW)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.2f));
     }
 }

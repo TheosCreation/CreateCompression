@@ -9,6 +9,6 @@ public class Amethyst extends Block {
         super(Properties.of(Material.AMETHYST)
             .sound(SoundType.AMETHYST)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(1.5f));
     }
 }

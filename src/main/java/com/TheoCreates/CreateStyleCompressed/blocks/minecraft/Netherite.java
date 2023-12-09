@@ -8,8 +8,8 @@ import net.minecraft.world.level.material.Material;
 public class Netherite extends Block {
     public Netherite() {
         super(Properties.of(Material.METAL)
-            .sound(SoundType.METAL)
+            .sound(SoundType.NETHERITE_BLOCK)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(50.0f, 1200.0f));
     }
 }

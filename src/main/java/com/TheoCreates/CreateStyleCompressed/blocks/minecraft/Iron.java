@@ -10,6 +10,6 @@ public class Iron extends Block {
         super(Properties.of(Material.METAL)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(3.0f, 6.0f));
     }
 }

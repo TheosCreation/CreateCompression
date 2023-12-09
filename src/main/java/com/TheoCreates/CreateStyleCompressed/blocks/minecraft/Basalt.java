@@ -9,6 +9,6 @@ public class Basalt extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.BASALT)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(1.25f, 4.2f));
     }
 }

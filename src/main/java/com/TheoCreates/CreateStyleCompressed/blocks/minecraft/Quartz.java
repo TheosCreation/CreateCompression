@@ -10,6 +10,6 @@ public class Quartz extends Block {
         super(Properties.of(Material.STONE)
             .sound(SoundType.STONE)
             .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.8f));
     }
 }

@@ -9,7 +9,6 @@ public class Sand extends FallingBlock {
     public Sand() {
         super(Properties.of(Material.SAND)
             .sound(SoundType.SAND)
-            .requiresCorrectToolForDrops()
-            .strength(7.0f, 20.0f));
+            .strength(0.5f));
     }
 }
