@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:storages/netherite"
+      "item": "minecraft:netherite_block"
     }
   },
   "result": {

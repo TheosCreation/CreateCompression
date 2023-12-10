@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "create:block/zinc"
+        "all": "create:block/zinc_block"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "create:block/zinc"
+    "particle": "create:block/zinc_block"
   }
 }

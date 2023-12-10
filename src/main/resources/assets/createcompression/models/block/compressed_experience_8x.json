@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "create:block/experience"
+        "all": "create:block/experience_block"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "create:block/experience"
+    "particle": "create:block/experience_block"
   }
 }
