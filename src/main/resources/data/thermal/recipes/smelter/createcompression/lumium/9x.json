@@ -1,0 +1,40 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+          "value": [{
+              "item": "createcompression:compressed_tin_9x"
+          }],
+          "count": 3
+      },
+      {
+          "value": [{
+              "item": "createcompression:compressed_silver_9x"
+          }],
+          "count": 1
+      },
+      {
+          "value": [{
+              "item": "createcompression:compressed_glowstone_9x"
+          }],
+          "count": 2
+
+      }
+  ],
+  "result": [{
+      "item": "createcompression:compressed_lumium_9x",
+      "count": 4
+  }],
+  "energy": 2400000,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
+          }
+      ]
+  }]
+}

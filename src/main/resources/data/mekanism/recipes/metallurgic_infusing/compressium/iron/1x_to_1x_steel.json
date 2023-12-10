@@ -10,7 +10,7 @@
       "tag": "mekanism:carbon"
   },
   "output": {
-      "item": "createstylecompressed:steel_block_1x"
+      "item": "createcompression:compressed_steel_1x"
   },
   "conditions": [{
       "type": "forge:and",

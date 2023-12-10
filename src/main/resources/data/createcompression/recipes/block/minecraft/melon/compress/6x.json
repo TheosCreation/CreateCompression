@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_melon_5x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_melon_6x",
+    "count": 1
+  }
+}

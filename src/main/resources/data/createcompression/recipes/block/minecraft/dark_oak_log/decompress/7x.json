@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_dark_oak_log_7x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_dark_oak_log_6x",
+    "count": 9
+  }
+}

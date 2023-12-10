@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_tuff_6x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_tuff_7x",
+    "count": 1
+  }
+}

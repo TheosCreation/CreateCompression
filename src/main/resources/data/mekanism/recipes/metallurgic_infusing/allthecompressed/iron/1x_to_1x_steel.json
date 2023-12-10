@@ -2,7 +2,7 @@
   "type": "mekanism:metallurgic_infusing",
   "itemInput": {
       "ingredient": {
-          "item": "createstylecompressed:iron_block_1x"
+          "item": "createcompression:compressed_iron_1x"
       }
   },
   "chemicalInput": {
@@ -10,7 +10,7 @@
       "tag": "mekanism:carbon"
   },
   "output": {
-      "item": "createstylecompressed:steel_block_1x"
+      "item": "createcompression:compressed_steel_1x"
   },
   "conditions": [{
       "type": "forge:and",

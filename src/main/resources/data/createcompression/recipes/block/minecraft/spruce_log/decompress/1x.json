@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_spruce_log_1x"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spruce_log",
+    "count": 9
+  }
+}

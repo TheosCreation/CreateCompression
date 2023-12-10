@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_glowstone_3x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_glowstone_2x",
+    "count": 9
+  }
+}

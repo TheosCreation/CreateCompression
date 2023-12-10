@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "createstylecompressed:nether_star_block",
-    "createstylecompressed:nether_star_block_1x",
-    "createstylecompressed:nether_star_block_2x",
-    "createstylecompressed:nether_star_block_3x",
-    "createstylecompressed:nether_star_block_4x",
-    "createstylecompressed:nether_star_block_5x",
-    "createstylecompressed:nether_star_block_6x",
-    "createstylecompressed:nether_star_block_7x",
-    "createstylecompressed:nether_star_block_8x",
-    "createstylecompressed:nether_star_block_9x"
+    "createcompression:nether_star",
+    "createcompression:compressed_nether_star_1x",
+    "createcompression:compressed_nether_star_2x",
+    "createcompression:compressed_nether_star_3x",
+    "createcompression:compressed_nether_star_4x",
+    "createcompression:compressed_nether_star_5x",
+    "createcompression:compressed_nether_star_6x",
+    "createcompression:compressed_nether_star_7x",
+    "createcompression:compressed_nether_star_8x",
+    "createcompression:compressed_nether_star_9x"
   ]
 }

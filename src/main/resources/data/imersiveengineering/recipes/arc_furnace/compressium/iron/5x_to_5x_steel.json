@@ -1,7 +1,7 @@
 {
   "type": "immersiveengineering:arc_furnace",
   "results": [{
-      "item": "createstylecompressed:steel_block_5x"
+      "item": "createcompression:compressed_steel_5x"
   }],
   "additives": [{
           "item": "compressium:coal_5"

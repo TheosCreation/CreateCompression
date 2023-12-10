@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:planks/spruce"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_spruce_plank_1x",
+    "count": 1
+  }
+}

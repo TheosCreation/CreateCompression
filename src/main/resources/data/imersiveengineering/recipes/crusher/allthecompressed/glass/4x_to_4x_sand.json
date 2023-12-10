@@ -2,10 +2,10 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-      "item": "createstylecompressed:sand_block_4x"
+      "item": "createcompression:compressed_sand_4x"
   },
   "input": {
-      "item": "createstylecompressed:glass_block_4x"
+      "item": "createcompression:compressed_glass_4x"
   },
   "energy": 8320,
   "conditions": [{

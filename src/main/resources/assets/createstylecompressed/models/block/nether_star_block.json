@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "createstylecompressed:block/nether_star_block"
-  }
-}

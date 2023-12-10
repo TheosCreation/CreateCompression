@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_tuff_2x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_tuff_1x",
+    "count": 9
+  }
+}

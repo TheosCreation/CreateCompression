@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_birch_plank_9x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_birch_plank_8x",
+    "count": 9
+  }
+}

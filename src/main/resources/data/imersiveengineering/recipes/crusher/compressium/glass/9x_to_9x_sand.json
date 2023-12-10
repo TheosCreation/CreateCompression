@@ -5,7 +5,7 @@
       "item": "compressium:sand_9"
   },
   "input": {
-      "item": "createstylecompressed:glass_block_9x"
+      "item": "createcompression:compressed_glass_9x"
   },
   "energy": 14720,
   "conditions": [{

@@ -1,0 +1,47 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [{
+            "value": [{
+                "item": "createcompression:compressed_diamond_6x"
+            }],
+            "count": 1
+        },
+        {
+            "value": [{
+                "item": "createcompression:compressed_lead_6x"
+            }],
+            "count": 3
+        },
+        {
+            "value": [{
+                "item": "createcompression:compressed_ender_pearl_6x"
+            }],
+            "count": 2
+
+        }
+    ],
+    "result": [{
+        "item": "createcompression:compressed_enderium_6x",
+        "count": 4
+    }],
+"energy": 1440000,
+    "conditions": [{
+        "type": "forge:and",
+        "values": [{
+                "type": "forge:not",
+                "value": {
+                    "type": "forge:mod_loaded",
+                    "modid": "compressium"
+                }
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "alltheores"
+            },
+            {
+                "type": "forge:mod_loaded",
+                "modid": "thermal"
+            }
+        ]
+    }]
+}

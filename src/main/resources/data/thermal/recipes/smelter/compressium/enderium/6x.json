@@ -8,20 +8,20 @@
         },
         {
             "value": [{
-                "item": "createstylecompressed:lead_block_6x"
+                "item": "createcompression:compressed_lead_6x"
             }],
             "count": 3
         },
         {
             "value": [{
-                "item": "createstylecompressed:ender_pearl_block_6x"
+                "item": "createcompression:compressed_ender_pearl_6x"
             }],
             "count": 2
 
         }
     ],
     "result": [{
-        "item": "createstylecompressed:enderium_block_6x",
+        "item": "createcompression:compressed_enderium_6x",
         "count": 4
     }],
 "energy": 1440000,

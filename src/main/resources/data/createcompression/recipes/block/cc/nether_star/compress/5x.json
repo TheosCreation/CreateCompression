@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_nether_star_4x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_nether_star_5x",
+    "count": 1
+  }
+}

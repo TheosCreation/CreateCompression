@@ -1,0 +1,33 @@
+{
+    "type": "thermal:smelter",
+    "ingredients": [{
+            "value": [{
+                "item": "createcompression:compressed_copper_4x"
+            }],
+            "count": 1
+        },
+        {
+            "value": [{
+                "item": "createcompression:compressed_nickel_4x"
+            }],
+            "count": 1
+        }
+    ],
+    "result": [{
+        "item": "createcompression:compressed_constantan_4x",
+        "count": 2
+    }],
+"energy": 960000,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:mod_loaded",
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
+          }
+      ]
+  }]
+}

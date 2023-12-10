@@ -8,13 +8,13 @@
       },
       {
           "value": [{
-              "item": "createstylecompressed:silver_block_9x"
+              "item": "createcompression:compressed_silver_9x"
           }],
           "count": 1
       }
   ],
   "result": [{
-      "item": "createstylecompressed:electrum_block_9x",
+      "item": "createcompression:compressed_electrum_9x",
       "count": 2
   }],
   "energy": 2400000,

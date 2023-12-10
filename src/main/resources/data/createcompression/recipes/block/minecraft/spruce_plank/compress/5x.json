@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_spruce_plank_4x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_spruce_plank_5x",
+    "count": 1
+  }
+}

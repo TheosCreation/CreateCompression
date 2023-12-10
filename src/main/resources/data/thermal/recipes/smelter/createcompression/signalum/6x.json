@@ -1,0 +1,47 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+          "value": [{
+              "item": "createcompression:compressed_copper_6x"
+          }],
+          "count": 3
+      },
+      {
+          "value": [{
+              "item": "createcompression:compressed_silver_6x"
+          }],
+          "count": 1
+      },
+      {
+          "value": [{
+              "item": "createcompression:compressed_redstone_6x"
+          }],
+          "count": 4
+
+      }
+  ],
+  "result": [{
+      "item": "createcompression:compressed_signalum_6x",
+      "count": 4
+  }],
+  "energy": 1440000,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
+          }
+      ]
+  }]
+}

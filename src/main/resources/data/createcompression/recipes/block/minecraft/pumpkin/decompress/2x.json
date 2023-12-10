@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_pumpkin_2x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_pumpkin_1x",
+    "count": 9
+  }
+}

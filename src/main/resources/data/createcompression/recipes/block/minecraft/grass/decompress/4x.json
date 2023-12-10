@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_grass_4x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_grass_3x",
+    "count": 9
+  }
+}

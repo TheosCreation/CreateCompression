@@ -8,13 +8,13 @@
       },
       {
           "value": [{
-              "item": "createstylecompressed:nickel_block_9x"
+              "item": "createcompression:compressed_nickel_9x"
           }],
           "count": 1
       }
   ],
   "result": [{
-      "item": "createstylecompressed:invar_block_9x",
+      "item": "createcompression:compressed_invar_9x",
       "count": 3
   }],
   "energy": 2400000,

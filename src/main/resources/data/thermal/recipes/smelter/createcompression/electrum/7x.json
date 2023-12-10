@@ -1,0 +1,40 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [{
+          "value": [{
+              "item": "createcompression:compressed_gold_7x"
+          }],
+          "count": 1
+      },
+      {
+          "value": [{
+              "item": "createcompression:compressed_silver_7x"
+          }],
+          "count": 1
+      }
+  ],
+  "result": [{
+      "item": "createcompression:compressed_electrum_7x",
+      "count": 2
+  }],
+  "energy": 1680000,
+  "conditions": [{
+      "type": "forge:and",
+      "values": [{
+              "type": "forge:not",
+              "value": {
+                  "type": "forge:mod_loaded",
+                  "modid": "compressium"
+              }
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "alltheores"
+          },
+          {
+              "type": "forge:mod_loaded",
+              "modid": "thermal"
+          }
+      ]
+  }]
+}

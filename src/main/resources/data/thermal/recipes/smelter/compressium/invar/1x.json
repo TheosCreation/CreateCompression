@@ -12,7 +12,7 @@
     {
       "value": [
         {
-          "item": "createstylecompressed:nickel_block_1x"
+          "item": "createcompression:compressed_nickel_1x"
         }
       ],
       "count": 1
@@ -20,7 +20,7 @@
   ],
   "result": [
     {
-      "item": "createstylecompressed:invar_block_1x",
+      "item": "createcompression:compressed_invar_1x",
       "count": 3
     }
   ],

@@ -5,7 +5,7 @@
     "count": 1
   },
   "result": {
-    "item": "createstylecompressed:stone_block_6x"
+    "item": "createcompression:compressed_stone_6x"
   },
   "energy": 1440000,
   "conditions": [

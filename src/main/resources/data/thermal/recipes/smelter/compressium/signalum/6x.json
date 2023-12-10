@@ -2,13 +2,13 @@
   "type": "thermal:smelter",
   "ingredients": [{
           "value": [{
-              "item": "createstylecompressed:copper_block_6x"
+              "item": "createcompression:compressed_copper_6x"
           }],
           "count": 3
       },
       {
           "value": [{
-              "item": "createstylecompressed:silver_block_6x"
+              "item": "createcompression:compressed_silver_6x"
           }],
           "count": 1
       },
@@ -21,7 +21,7 @@
       }
   ],
   "result": [{
-      "item": "createstylecompressed:signalum_block_6x",
+      "item": "createcompression:compressed_signalum_6x",
       "count": 4
   }],
   "energy": 1440000,

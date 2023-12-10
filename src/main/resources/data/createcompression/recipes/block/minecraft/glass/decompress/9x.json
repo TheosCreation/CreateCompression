@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_glass_9x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_glass_8x",
+    "count": 9
+  }
+}

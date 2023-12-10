@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_oak_log_7x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_oak_log_8x",
+    "count": 1
+  }
+}

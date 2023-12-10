@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_dark_oak_plank_8x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_dark_oak_plank_9x",
+    "count": 1
+  }
+}

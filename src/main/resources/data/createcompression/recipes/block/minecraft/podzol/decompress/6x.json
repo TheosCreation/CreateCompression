@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_podzol_6x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_podzol_5x",
+    "count": 9
+  }
+}

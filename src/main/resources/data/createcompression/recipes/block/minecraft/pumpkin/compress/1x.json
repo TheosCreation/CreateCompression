@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_pumpkin_1x",
+    "count": 1
+  }
+}

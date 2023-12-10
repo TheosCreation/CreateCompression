@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_dark_oak_plank_7x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_dark_oak_plank_6x",
+    "count": 9
+  }
+}

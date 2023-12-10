@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_grass_4x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_grass_5x",
+    "count": 1
+  }
+}

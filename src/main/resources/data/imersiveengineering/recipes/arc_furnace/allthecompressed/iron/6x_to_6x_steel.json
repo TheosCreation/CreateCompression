@@ -1,17 +1,17 @@
 {
   "type": "immersiveengineering:arc_furnace",
   "results": [{
-      "item": "createstylecompressed:steel_block_6x"
+      "item": "createcompression:compressed_steel_6x"
   }],
   "additives": [{
-          "item": "createstylecompressed:coal_block_6x"
+          "item": "createcompression:compressed_coal_6x"
       },
       {
-          "item": "createstylecompressed:coal_block_6x"
+          "item": "createcompression:compressed_coal_6x"
       }
   ],
   "input": {
-      "item": "createstylecompressed:iron_block_6x"
+      "item": "createcompression:compressed_iron_6x"
   },
   "time": 1360,
   "energy": 696320,

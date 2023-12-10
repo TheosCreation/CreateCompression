@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_terracotta_8x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_terracotta_9x",
+    "count": 1
+  }
+}

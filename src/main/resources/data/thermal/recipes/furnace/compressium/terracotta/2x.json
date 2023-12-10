@@ -5,7 +5,7 @@
     "count": 1
   },
   "result": {
-    "item": "createstylecompressed:terracotta_block_2x"
+    "item": "createcompression:compressed_terracotta_2x"
   },
   "energy": 480000,
   "conditions": [
