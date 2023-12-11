@@ -266,7 +266,9 @@ public class JEICompat implements IModPlugin {
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:compressed_brass_6x"))),
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:compressed_brass_7x"))),
                 new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:compressed_brass_8x"))),
-                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:compressed_brass_9x")))
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:compressed_brass_9x"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:refined_radiance_block"))),
+                new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:shadow_steel_block")))
             ));
         }
     }

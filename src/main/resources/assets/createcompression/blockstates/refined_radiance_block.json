@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "createcompression:block/refined_radiance_block"
+    }
+  }
+}

@@ -506,6 +506,8 @@
     "createcompression:compressed_spruce_plank_6x",
     "createcompression:compressed_spruce_plank_7x",
     "createcompression:compressed_spruce_plank_8x",
-    "createcompression:compressed_spruce_plank_9x"
+    "createcompression:compressed_spruce_plank_9x",
+    "createcompression:shadow_steel_block",
+    "createcompression:refined_radiance_block"
   ]
 }

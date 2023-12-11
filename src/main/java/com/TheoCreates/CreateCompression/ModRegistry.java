@@ -1,6 +1,8 @@
 package com.TheoCreates.CreateCompression;
 
 import com.TheoCreates.CreateCompression.blocks.cc.Nether_Star_Block;
+import com.TheoCreates.CreateCompression.blocks.cc.Refined_Radiance_Block;
+import com.TheoCreates.CreateCompression.blocks.cc.Shadow_Steel_Block;
 import com.google.common.base.Suppliers;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.BlockItem;
@@ -42,8 +44,12 @@ public class ModRegistry {
                 blockItem(block);
             }
         }
-        RegistryObject<Block> block = BLOCKS.register("nether_star", Nether_Star_Block::new);
-        blockItem(block);
+        RegistryObject<Block> nether_star = BLOCKS.register("nether_star", Nether_Star_Block::new);
+        blockItem(nether_star);
+        RegistryObject<Block> refined_radiance_block = BLOCKS.register("refined_radiance_block", Refined_Radiance_Block::new);
+        blockItem(refined_radiance_block);
+        RegistryObject<Block> shadow_steel_block = BLOCKS.register("shadow_steel_block", Shadow_Steel_Block::new);
+        blockItem(shadow_steel_block);
     }
 
     /**

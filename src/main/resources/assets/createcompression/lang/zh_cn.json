@@ -1315,5 +1315,9 @@
   "item.createcompression.compressed_tuff_8x": "壓縮凝灰岩8x",
   "block.createcompression.compressed_tuff_8x": "壓縮凝灰岩8x",
   "item.createcompression.compressed_tuff_9x": "壓縮凝灰岩9x",
-  "block.createcompression.compressed_tuff_9x": "壓縮凝灰岩9x"
+  "block.createcompression.compressed_tuff_9x": "壓縮凝灰岩9x",
+  "item.createcompression.refined_radiance_block": "精製光輝塊",
+  "block.createcompression.refined_radiance_block": "精製光輝塊",
+  "item.createcompression.shadow_steel_block": "暗影鋼塊",
+  "block.createcompression.shadow_steel_block": "暗影鋼塊"
 }

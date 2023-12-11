@@ -281,6 +281,8 @@
     "createcompression:compressed_zinc_6x",
     "createcompression:compressed_zinc_7x",
     "createcompression:compressed_zinc_8x",
-    "createcompression:compressed_zinc_9x"
+    "createcompression:compressed_zinc_9x",
+    "createcompression:shadow_steel_block",
+    "createcompression:refined_radiance_block"
   ]
 }

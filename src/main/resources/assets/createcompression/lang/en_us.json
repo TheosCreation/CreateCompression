@@ -1585,5 +1585,9 @@
   "item.createcompression.compressed_tuff_8x": "Compressed Tuff (8x)",
   "block.createcompression.compressed_tuff_8x": "Compressed Tuff (8x)",
   "item.createcompression.compressed_tuff_9x": "Compressed Tuff (9x)",
-  "block.createcompression.compressed_tuff_9x": "Compressed Tuff (9x)"
+  "block.createcompression.compressed_tuff_9x": "Compressed Tuff (9x)",
+  "item.createcompression.refined_radiance_block": "Refined Radiance Block",
+  "block.createcompression.refined_radiance_block": "Refined Radiance Block",
+  "item.createcompression.shadow_steel_block": "Block of Shadow Steel",
+  "block.createcompression.shadow_steel_block": "Block of Shadow Steel"
 }

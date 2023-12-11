@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:shadow_steel_block"
+    }
+  ],
+  "result": {
+    "item": "create:shadow_steel",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}
