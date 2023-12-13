@@ -28,6 +28,8 @@ public enum CreateCompressionType {
     COBBLED_DEEPSLATE("cobbled_deepslate", Cobbled_Deepslate::new),
     COBBLESTONE("cobblestone", Cobblestone::new),
     COPPER("copper", Copper::new),
+    CRIMSON_STEM("crimson_stem", Crimson_Stem::new),
+    CRIMSON_PLANK("crimson_plank", Crimson_Plank::new),
     DARK_OAK_LOG("dark_oak_log", Dark_Oak_Log::new),
     DARK_OAK_PLANK("dark_oak_plank", Dark_Oak_Plank::new),
     DEEPSLATE("deepslate", Deepslate::new),
@@ -67,7 +69,10 @@ public enum CreateCompressionType {
     SPRUCE_PLANK("spruce_plank", Spruce_Plank::new),
     STONE("stone", Stone::new),
     TERRACOTTA("terracotta", Terracotta::new),
-    TUFF("tuff", Tuff::new);
+    TUFF("tuff", Tuff::new),
+
+    WARPED_STEM("warped_stem", Warped_Stem::new),
+    WARPED_PLANK("warped_plank", Warped_Plank::new);
 
 
     public static final CreateCompressionType[] VALUES = values();
