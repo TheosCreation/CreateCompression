@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_warped_stem_5x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_warped_stem_4x",
+    "count": 9
+  }
+}

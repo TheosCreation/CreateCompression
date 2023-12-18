@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_warped_plank_2x"
+    }
+  },
+  "result": {
+    "item": "createcompression:compressed_warped_plank_3x",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_crimson_stem_3x"
+    }
+  ],
+  "result": {
+    "item": "createcompression:compressed_crimson_stem_2x",
+    "count": 9
+  }
+}

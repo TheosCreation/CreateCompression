@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_crimson_plank_1x"
+    }
+  ],
+  "result": {
+    "item": "minecraft:crimson_planks",
+    "count": 9
+  }
+}
