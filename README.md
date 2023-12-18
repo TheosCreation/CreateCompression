@@ -24,7 +24,7 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/cobbled_deepslate.png) Cobbled Deepslate
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/cobblestone.png) Cobblestone
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/copper_block.png) Copper
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/crimson_plank.png) Crimson Plank
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/crimson_planks.png) Crimson Plank
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/crimson_stem.png) Crimson Stem
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/dark_oak_log.png) Dark Oak Log
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/dark_oak_planks.png) Dark Oak Plank
@@ -66,7 +66,7 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/stone.png) Stone
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/terracotta.png) Terracotta
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/tuff.png) Tuff
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/warped_plank.png) Warped Plank
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/warped_planks.png) Warped Plank
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/warped_stem.png) Warped Stem
 
 New Blocks
