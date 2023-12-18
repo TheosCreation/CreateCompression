@@ -17,7 +17,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:translucent",
       "textures": {
-        "all": "createcompression:block/layer_3"
+        "all": "createcompression:block/layer_2"
       }
     }
   },
