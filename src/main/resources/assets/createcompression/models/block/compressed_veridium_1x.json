@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "minecraft:block/andesite"
+        "all": "create:block/palettes/stone_types/natural/veridium_0"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "minecraft:block/andesite"
+    "particle": "create:block/palettes/stone_types/natural/veridium_0"
   }
 }

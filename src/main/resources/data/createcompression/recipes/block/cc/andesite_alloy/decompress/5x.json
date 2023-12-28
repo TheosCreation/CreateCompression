@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "createcompression:compressed_brass_5x"
+      "item": "createcompression:compressed_andesite_alloy_5x"
     }
   ],
   "result": {
-    "item": "createcompression:compressed_brass_4x",
+    "item": "createcompression:compressed_andesite_alloy_4x",
     "count": 9
   },
   "conditions": [

@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "createcompression:compressed_asurine_3x"
+      "item": "createcompression:compressed_ochrum_3x"
     }
   },
   "result": {
-    "item": "createcompression:compressed_asurine_4x",
+    "item": "createcompression:compressed_ochrum_4x",
     "count": 1
   },
   "conditions": [

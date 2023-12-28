@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "createcompression:compressed_andesite_alloy_9x"
+      "item": "createcompression:compressed_limestone_9x"
     }
   ],
   "result": {
-    "item": "createcompression:compressed_andesite_alloy_8x",
+    "item": "createcompression:compressed_limestone_8x",
     "count": 9
   },
   "conditions": [

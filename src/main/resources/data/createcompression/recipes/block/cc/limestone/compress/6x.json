@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "createcompression:compressed_andesite_alloy_5x"
+      "item": "createcompression:compressed_limestone_5x"
     }
   },
   "result": {
-    "item": "createcompression:compressed_andesite_alloy_6x",
+    "item": "createcompression:compressed_limestone_6x",
     "count": 1
   },
   "conditions": [

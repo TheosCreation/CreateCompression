@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "createcompression:compressed_asurine_6x"
+      "item": "createcompression:compressed_scorchia_6x"
     }
   ],
   "result": {
-    "item": "createcompression:compressed_asurine_5x",
+    "item": "createcompression:compressed_scorchia_5x",
     "count": 9
   },
   "conditions": [

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createcompression:compressed_andesite_8x"
+          "name": "createcompression:compressed_limestone_8x"
         }
       ],
       "conditions": [

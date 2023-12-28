@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "createcompression:compressed_limestone_4x"
+      "item": "createcompression:compressed_crimsite_4x"
     }
   ],
   "result": {
-    "item": "createcompression:compressed_limestone_3x",
+    "item": "createcompression:compressed_crimsite_3x",
     "count": 9
   },
   "conditions": [

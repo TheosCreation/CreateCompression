@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "minecraft:block/amethyst_block"
+        "all": "create:block/palettes/stone_types/natural/asurine_0"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "minecraft:block/amethyst_block"
+    "particle": "create:block/palettes/stone_types/natural/asurine_0"
   }
 }

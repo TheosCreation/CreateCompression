@@ -9,9 +9,19 @@ import java.util.List;
 import java.util.function.Supplier;
 
 public enum CreateCompressionType {
-    EXPERIENCE("experience", Experience::new),
-    ZINC("zinc", Zinc::new),
+    ANDESITE_ALLOY("andesite_alloy", Andesite_Alloy::new),
+    ASURINE("asurine", Asurine::new),
     BRASS("brass", Brass::new),
+    CRIMSITE("crimsite", Crimsite::new),
+    EXPERIENCE("experience", Experience::new),
+    LIMESTONE("limestone", Limestone::new),
+    OCHRUM("ochrum", Ochrum::new),
+    SCORCHIA("scorchia", Scorchia::new),
+    SCORIA("scoria", Scoria::new),
+    VERIDIUM("veridium", Veridium::new),
+    ZINC("zinc", Zinc::new),
+
+    // New Blocks
     NETHER_STAR("nether_star", Nether_Star::new),
 
     //Minecraft

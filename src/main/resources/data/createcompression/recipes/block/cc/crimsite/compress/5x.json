@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "createcompression:compressed_limestone_4x"
+      "item": "createcompression:compressed_crimsite_4x"
     }
   },
   "result": {
-    "item": "createcompression:compressed_limestone_5x",
+    "item": "createcompression:compressed_crimsite_5x",
     "count": 1
   },
   "conditions": [

@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "create:block/brass_block"
+        "all": "create:block/andesite_block"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "create:block/brass_block"
+    "particle": "create:block/andesite_block"
   }
 }

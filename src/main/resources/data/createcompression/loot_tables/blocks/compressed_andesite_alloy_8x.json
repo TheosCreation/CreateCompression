@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createcompression:compressed_brass_8x"
+          "name": "createcompression:compressed_andesite_alloy_8x"
         }
       ],
       "conditions": [

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createcompression:compressed_acacia_log_8x"
+          "name": "createcompression:compressed_crimsite_8x"
         }
       ],
       "conditions": [

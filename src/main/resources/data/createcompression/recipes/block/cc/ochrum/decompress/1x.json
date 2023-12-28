@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "createcompression:compressed_asurine_1x"
+      "item": "createcompression:compressed_ochrum_1x"
     }
   ],
   "result": {
-    "item": "create:asurine",
+    "item": "create:ochrum",
     "count": 9
   },
   "conditions": [

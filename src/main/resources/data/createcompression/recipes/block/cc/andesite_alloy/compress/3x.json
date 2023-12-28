@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "createcompression:compressed_brass_2x"
+      "item": "createcompression:compressed_andesite_alloy_2x"
     }
   },
   "result": {
-    "item": "createcompression:compressed_brass_3x",
+    "item": "createcompression:compressed_andesite_alloy_3x",
     "count": 1
   },
   "conditions": [
