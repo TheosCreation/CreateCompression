@@ -75,6 +75,13 @@ New Blocks
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/shadow_steel_block.png) Shadow Steel
 
 Create
-- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/zinc_block.png) Zinc
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/andesite_block.png) Andesite Alloy
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/asurine.png) Asurine
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/brass_block.png) Brass
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/crimsite.png) Crimsite
 - ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/experience_block.png) Experience
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/limestone.png) Limestone
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/scorchia.png) Scorchia
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/scoria.png) Scoria
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/veridium.png) Veridium
+- ![](https://github.com/TheosCreation/CreateCompression/blob/main/images/zinc_block.png) Zinc
