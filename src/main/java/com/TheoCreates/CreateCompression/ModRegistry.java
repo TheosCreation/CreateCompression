@@ -3,40 +3,28 @@ package com.TheoCreates.CreateCompression;
 import com.TheoCreates.CreateCompression.blocks.cc.Nether_Star_Block;
 import com.TheoCreates.CreateCompression.blocks.cc.Refined_Radiance_Block;
 import com.TheoCreates.CreateCompression.blocks.cc.Shadow_Steel_Block;
-import com.google.common.base.Suppliers;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.NotNull;
-
-import java.util.function.Supplier;
 
 public class ModRegistry {
+
+
     private ModRegistry() {
         // nothing to do
     }
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CreateCompression.MODID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateCompression.MODID);
-
-    public static final CreativeModeTab CREATIVE_TAB = new CreativeModeTab(CreateCompression.MODID) {
-        private static final Supplier<Item> ITEM_SUPPLIER = Suppliers.memoize(
-            () -> ForgeRegistries.ITEMS.getValue(new ResourceLocation("createcompression:compressed_gold_4x")));
-
-        @Override
-        public @NotNull ItemStack makeIcon() {
-            return new ItemStack(ITEM_SUPPLIER.get());
-        }
-    };
-
     public static void registerBlocks() {
         for (CreateCompressionType type : CreateCompressionType.VALUES) {
             for (int i = 0; i < 9; i++) {
@@ -60,14 +48,13 @@ public class ModRegistry {
      */
     private static RegistryObject<BlockItem> blockItem(RegistryObject<Block> registryObject) {
         return ITEMS.register(registryObject.getId().getPath(),
-            () -> new BlockItem(registryObject.get(), new Item.Properties().tab(CREATIVE_TAB)));
+            () -> new BlockItem(registryObject.get(), new Item.Properties()));
     }
 
-    public static void register() {
+    public static void register(IEventBus eventBus) {
         registerBlocks();
 
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ITEMS.register(bus);
-        BLOCKS.register(bus);
+        ITEMS.register(eventBus);
+        BLOCKS.register(eventBus);
     }
 }

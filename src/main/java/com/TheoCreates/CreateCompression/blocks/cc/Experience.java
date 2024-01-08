@@ -2,11 +2,11 @@ package com.TheoCreates.CreateCompression.blocks.cc;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.Blocks;
 
 public class Experience extends Block {
     public Experience() {
-        super(Properties.of(Material.AMETHYST)
+        super(Properties.copy(Blocks.AMETHYST_BLOCK)
             .lightLevel((b) -> 15)
             .sound(SoundType.AMETHYST)
             .requiresCorrectToolForDrops()
