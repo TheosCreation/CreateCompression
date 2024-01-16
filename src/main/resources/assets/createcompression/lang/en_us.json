@@ -1247,5 +1247,6 @@
   "item.createcompression.compressed_warped_plank_8x": "Compressed Warped Plank (8x)",
   "block.createcompression.compressed_warped_plank_8x": "Compressed Warped Plank (8x)",
   "item.createcompression.compressed_warped_plank_9x": "Compressed Warped Plank (9x)",
-  "block.createcompression.compressed_warped_plank_9x": "Compressed Warped Plank (9x)"
+  "block.createcompression.compressed_warped_plank_9x": "Compressed Warped Plank (9x)",
+  "creativemodetab.name": "Create Compression"
 }
