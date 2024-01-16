@@ -26,7 +26,10 @@ public class ModRegistry {
         public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CreateCompression.MODID);
 
         public static RegistryObject<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab", () -> CreativeModeTab.builder()
-            .title(Component.translatable("block.createcompression.compressed_acacia_log_1x")).build());
+            .title(Component.translatable("block.createcompression.compressed_acacia_log_1x")).displayItems((parameters, tabData) -> {
+                tabData.accept(blockItem(ForgeRegistries.BLOCKS.getResourceKey("createcompression:acacia_log_1x")).get());
+
+            }).build());
         //RegistryObject<Block> nether_star = BLOCKS.register("nether_star", Nether_Star_Block::new);
         //blockItem(nether_star);
         //RegistryObject<Block> refined_radiance_block = BLOCKS.register("refined_radiance_block", Refined_Radiance_Block::new);
