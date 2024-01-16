@@ -1,6 +1,8 @@
 {
     "pack": {
-        "description": "CreateCompression resources",
-        "pack_format": 9
+        "description": {
+            "text": "CreateCompression resources"
+        },
+        "pack_format": 15
     }
 }

@@ -2,11 +2,11 @@ package com.TheoCreates.CreateCompression.blocks.cc;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.Material;
+
 
 public class Nether_Star_Block extends Block {
     public Nether_Star_Block() {
-        super(Properties.of(Material.METAL)
+        super(Properties.of()
             .lightLevel((b) -> 15)
             .sound(SoundType.METAL)
             .requiresCorrectToolForDrops()
