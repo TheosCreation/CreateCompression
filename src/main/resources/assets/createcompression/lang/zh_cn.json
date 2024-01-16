@@ -1238,5 +1238,6 @@
   "item.createcompression.compressed_warped_plank_8x": "壓縮翹曲木板8x",
   "block.createcompression.compressed_warped_plank_8x": "壓縮翹曲木板8x",
   "item.createcompression.compressed_warped_plank_9x": "壓縮翹曲木板9x",
-  "block.createcompression.compressed_warped_plank_9x": "壓縮翹曲木板9x"
+  "block.createcompression.compressed_warped_plank_9x": "壓縮翹曲木板9x",
+  "creativemodetab.name": "建立壓縮"
 }
