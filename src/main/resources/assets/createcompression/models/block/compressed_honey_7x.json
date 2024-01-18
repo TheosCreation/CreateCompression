@@ -1,10 +1,10 @@
 {
   "parent": "block/block",
-  "loader": "forge:composite",
-  "children": {
+  "loader": "forge:multi-layer",
+  "layers": {
     "solid": {
       "parent": "block/cube_all",
-      "render_type": "minecraft:translucent",
+
       "textures": {
         "down": "block/honey_block_bottom",
         "up": "block/honey_block_top",
@@ -82,7 +82,7 @@
     },
     "translucent": {
       "parent": "block/cube_all",
-      "render_type": "minecraft:translucent",
+
       "textures": {
         "all": "createcompression:block/layer_7"
       }
