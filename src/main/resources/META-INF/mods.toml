@@ -20,6 +20,6 @@ adds 1-9x compressed versions of blocks, and recipes.
 [[dependencies.createcompression]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19,1.20)"
+    versionRange="[1.18.1,1.19)"
     ordering="NONE"
     side="BOTH"
