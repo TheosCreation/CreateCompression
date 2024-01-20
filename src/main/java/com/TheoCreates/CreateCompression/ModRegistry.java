@@ -37,13 +37,7 @@ public class ModRegistry {
         }
     };
 
-    public static void registerBlocks() {
-        for (CreateCompressionType type : CreateCompressionType.VALUES) {
-            for (int i = 0; i < 9; i++) {
-                RegistryObject<Block> block = BLOCKS.register("compressed_" + type.name + "_" + (i + 1) + "x", type.factory);
-                blockItem(block);
-            }
-        }
+    public static void registerStandardBlocks() {
         RegistryObject<Block> nether_star = BLOCKS.register("nether_star", Nether_Star_Block::new);
         blockItem(nether_star);
         RegistryObject<Block> refined_radiance_block = BLOCKS.register("refined_radiance_block", Refined_Radiance_Block::new);
@@ -61,13 +55,5 @@ public class ModRegistry {
     private static RegistryObject<BlockItem> blockItem(RegistryObject<Block> registryObject) {
         return ITEMS.register(registryObject.getId().getPath(),
             () -> new BlockItem(registryObject.get(), new Item.Properties().tab(CREATIVE_TAB)));
-    }
-
-    public static void register() {
-        registerBlocks();
-
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ITEMS.register(bus);
-        BLOCKS.register(bus);
     }
 }

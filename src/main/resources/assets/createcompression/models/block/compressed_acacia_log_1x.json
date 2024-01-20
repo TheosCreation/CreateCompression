@@ -4,7 +4,6 @@
   "layers": {
     "solid": {
       "parent": "block/cube_all",
-
       "textures": {
         "all": "minecraft:block/acacia_log"
       },
@@ -15,7 +14,6 @@
     },
     "translucent": {
       "parent": "block/cube_all",
-
       "textures": {
         "all": "createcompression:block/layer_1"
       }
