@@ -1,0 +1,29 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_terracotta_5x"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "createcompression:compressed_red_sand_5x"
+    }
+  ],
+  "conditions": [{
+    "type": "forge:and",
+    "values": [{
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+      }
+    },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }]
+}

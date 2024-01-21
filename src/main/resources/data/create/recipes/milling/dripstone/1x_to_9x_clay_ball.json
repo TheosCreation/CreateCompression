@@ -1,0 +1,30 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_dripstone_1x"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "item": "9x minecraft:clay_ball"
+    }
+  ],
+  "conditions": [{
+    "type": "forge:and",
+    "values": [{
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+      }
+    },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }]
+}
+

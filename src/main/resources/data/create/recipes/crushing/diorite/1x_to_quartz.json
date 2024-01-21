@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_diorite_1x"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "chance": 0.25,
+      "item": "9x minecraft:quartz"
+    }
+  ],
+  "conditions": [{
+    "type": "forge:and",
+    "values": [{
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "compressium"
+      }
+    },
+      {
+        "type": "forge:mod_loaded",
+        "modid": "create"
+      }
+    ]
+  }]
+}
