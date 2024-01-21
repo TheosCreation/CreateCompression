@@ -19,9 +19,9 @@
       "textures": {
         "all": "createcompression:block/layer_2"
       }
-    },
-    "textures": {
-      "particle": "block/copper_block"
     }
+  },
+  "textures": {
+    "particle": "block/copper_block"
   }
 }
