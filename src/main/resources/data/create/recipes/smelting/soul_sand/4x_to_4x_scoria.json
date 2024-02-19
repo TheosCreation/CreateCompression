@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "createcompression:compressed_soul_sand_4x"
+  },
+  "result": "createcompression:compressed_scoria_4x"
+}
