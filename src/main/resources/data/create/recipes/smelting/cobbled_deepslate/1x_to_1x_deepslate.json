@@ -3,7 +3,7 @@
   "cookingtime": 200,
   "experience": 0.0,
   "ingredient": {
-    "item": "createcompression:compressed_cobblestone_1x"
+    "item": "createcompression:compressed_cobbled_deepslate_1x"
   },
   "result": "createcompression:compressed_deepslate_1x"
 }
