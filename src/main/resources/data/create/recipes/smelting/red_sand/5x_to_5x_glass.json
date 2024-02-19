@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "createcompression:compressed_red_sand_5x"
+  },
+  "result": "createcompression:compressed_glass_5x"
+}
