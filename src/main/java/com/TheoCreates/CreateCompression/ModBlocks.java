@@ -34,6 +34,7 @@ public class ModBlocks {
             registerBlockWithItem("compressed_birch_log_" + i + "x", Birch_Log::new);
             registerBlockWithItem("compressed_birch_plank_" + i + "x", Birch_Plank::new);
             registerBlockWithItem("compressed_blackstone_" + i + "x", Blackstone::new);
+            registerBlockWithItem("compressed_bone_block_" + i + "x", Bone_Block::new);
             registerBlockWithItem("compressed_brass_" + i + "x", Brass::new);
             registerBlockWithItem("compressed_clay_" + i + "x", Clay::new);
             registerBlockWithItem("compressed_coal_" + i + "x", Coal::new);
