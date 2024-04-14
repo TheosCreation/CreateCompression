@@ -19,6 +19,7 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/birch_log.png) Birch Log
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/birch_planks.png) Birch Plank
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/blackstone.png) Blackstone
+- ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/bone_block.png) Bone Block
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/clay.png) Clay
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/coal_block.png) Coal
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/cobbled_deepslate.png) Cobbled Deepslate
