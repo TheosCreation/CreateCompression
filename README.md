@@ -56,6 +56,9 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/podzol.png) Podzol
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/pumpkin.png) Pumpkin
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/quartz_block.png) Quartz
+- ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/raw_copper.png) Raw Copper
+- ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/raw_gold.png) Raw Gold
+- ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/raw_iron.png) Raw Iron
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/red_sand.png) Red Sand
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/redstone_block.png) Redstone
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/sand.png) Sand
