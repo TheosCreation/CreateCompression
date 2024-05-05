@@ -77,6 +77,9 @@ public class ModBlocks {
             registerBlockWithItem("compressed_podzol_" + i + "x", Podzol::new);
             registerBlockWithItem("compressed_pumpkin_" + i + "x", Pumpkin::new);
             registerBlockWithItem("compressed_quartz_" + i + "x", Quartz::new);
+            registerBlockWithItem("compressed_raw_copper_" + i + "x", Raw_Copper::new);
+            registerBlockWithItem("compressed_raw_gold_" + i + "x", Raw_Gold::new);
+            registerBlockWithItem("compressed_raw_iron_" + i + "x", Raw_Iron::new);
             registerBlockWithItem("compressed_red_sand_" + i + "x", Red_Sand::new);
             registerBlockWithItem("compressed_redstone_" + i + "x", Redstone::new);
             registerBlockWithItem("compressed_sand_" + i + "x", Sand::new);
