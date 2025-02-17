@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "createcompression:nether_star"
+          "name": "createcompression:nether_star_block"
         }
       ],
       "conditions": [
