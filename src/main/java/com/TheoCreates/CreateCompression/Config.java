@@ -1,0 +1,51 @@
+package com.TheoCreates.CreateCompression;
+
+import net.minecraftforge.common.ForgeConfigSpec;
+import net.minecraftforge.fml.common.Mod;
+
+import java.util.EnumMap;
+import java.util.Map;
+
+@Mod.EventBusSubscriber(modid = CreateCompression.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
+public class Config {
+    public static final ForgeConfigSpec COMMON_CONFIG;
+    public static final Map<CreateCompressionType, ForgeConfigSpec.BooleanValue> ENABLED_BLOCKS = new EnumMap<>(CreateCompressionType.class);
+    public static final ForgeConfigSpec.IntValue MAX_COMPRESSION_LEVEL;
+    public static final ForgeConfigSpec.BooleanValue ENABLE_NETHER_STAR_BLOCK;
+    public static final ForgeConfigSpec.BooleanValue ENABLE_REFINED_RADIANCE_BLOCK;
+    public static final ForgeConfigSpec.BooleanValue ENABLE_SHADOW_STEEL_BLOCK;
+
+    static {
+        ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
+
+        // General settings
+        COMMON_BUILDER.comment("General settings").push("general");
+        MAX_COMPRESSION_LEVEL = COMMON_BUILDER
+            .comment("Maximum compression level for blocks")
+            .defineInRange("maxCompressionLevel", 9, 1, 9);
+        COMMON_BUILDER.pop();
+
+        // Block settings
+        COMMON_BUILDER.comment("Block settings").push("blocks");
+        for (CreateCompressionType type : CreateCompressionType.values()) {
+            ForgeConfigSpec.BooleanValue enabled = COMMON_BUILDER
+                .comment("Enable the " + type.name + " block")
+                .define("enable" + type.name + "Block", true);
+            ENABLED_BLOCKS.put(type, enabled);
+        }
+        ENABLE_NETHER_STAR_BLOCK = COMMON_BUILDER
+            .comment("Enable the Nether Star Block")
+            .define("enableNetherStarBlock", true);
+
+        ENABLE_REFINED_RADIANCE_BLOCK = COMMON_BUILDER
+            .comment("Enable the Refined Radiance Block")
+            .define("enableRefinedRadianceBlock", true);
+        ENABLE_SHADOW_STEEL_BLOCK = COMMON_BUILDER
+            .comment("Enable the Shadow Steel Block")
+            .define("enableShadowSteelBlock", true);
+        COMMON_BUILDER.pop();
+
+
+        COMMON_CONFIG = COMMON_BUILDER.build();
+    }
+}
