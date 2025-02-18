@@ -22,7 +22,7 @@ public enum CreateCompressionType {
     ZINC("zinc", Zinc::new),
 
     // New Blocks
-    NETHER_STAR("nether_star", Nether_Star::new),
+    NETHER_STAR("nether_star", Nether_Star_Block::new),
 
     //Minecraft
     ACACIA_LOG("acacia_log", Acacia_Log::new),
