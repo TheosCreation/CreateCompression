@@ -91,13 +91,4 @@ public class ModRegistry {
             event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(CREATIVE_TAB)).setRegistryName(block.getRegistryName()));
         }
     }
-
-
-    public static void register() {
-        registerBlocks();
-
-        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        ITEMS.register(bus);
-        BLOCKS.register(bus);
-    }
 }
