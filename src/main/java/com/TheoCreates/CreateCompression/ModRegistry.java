@@ -39,8 +39,8 @@ public class ModRegistry {
 
     public static void registerBlocks() {
         for (CreateCompressionType type : CreateCompressionType.values()) {
-            if (Config.ENABLED_BLOCKS.get(type).get()) {
-                for (int i = 0; i < Config.MAX_COMPRESSION_LEVEL.get(); i++) {
+            if(Config.isBlockEnabled(type)) {
+                for (int i = 0; i < Config.getMaxCompressionLevel(); i++) {
                     String blockName = "compressed_" + type.name + "_" + (i + 1) + "x";
                     RegistryObject<Block> block = BLOCKS.register(blockName, type.factory);
                     blockItem(block);
@@ -48,17 +48,17 @@ public class ModRegistry {
             }
         }
 
-        if (Config.ENABLE_NETHER_STAR_BLOCK.get()) {
+        if (Config.isNetherStarBlockEnabled()) {
             RegistryObject<Block> nether_star = BLOCKS.register("nether_star_block", Nether_Star_Block::new);
             blockItem(nether_star);
         }
 
-        if (Config.ENABLE_REFINED_RADIANCE_BLOCK.get()) {
+        if (Config.isRefinedRadianceBlockEnabled()) {
             RegistryObject<Block> refined_radiance_block = BLOCKS.register("refined_radiance_block", Refined_Radiance_Block::new);
             blockItem(refined_radiance_block);
         }
 
-        if (Config.ENABLE_SHADOW_STEEL_BLOCK.get()) {
+        if (Config.isShadowSteelBlockEnabled()) {
             RegistryObject<Block> shadow_steel_block = BLOCKS.register("shadow_steel_block", Shadow_Steel_Block::new);
             blockItem(shadow_steel_block);
         }
