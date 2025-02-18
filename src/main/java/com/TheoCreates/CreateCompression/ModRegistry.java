@@ -56,24 +56,34 @@ public class ModRegistry {
 
     private static void registerBlocks(RegistryEvent.Register<Block> event) {
         for (CreateCompressionType type : CreateCompressionType.VALUES) {
-            for (int i = 0; i < 9; i++) {
-                Block block = type.factory.get();
-                event.getRegistry().register(block.setRegistryName("compressed_" + type.name + "_" + (i + 1) + "x"));
-                blocks.add(block);
+            if(Config.isBlockEnabled((type))) {
+                for (int i = 0; i < 9; i++) {
+                    Block block = type.factory.get();
+                    event.getRegistry().register(block.setRegistryName("compressed_" + type.name + "_" + (i + 1) + "x"));
+                    blocks.add(block);
+                }
             }
         }
 
-        Block netherStarBlock = new Nether_Star_Block();
-        event.getRegistry().register(netherStarBlock.setRegistryName("nether_star"));
-        blocks.add(netherStarBlock);
+        if(Config.isNetherStarBlockEnabled())
+        {
+            Block netherStarBlock = new Nether_Star_Block();
+            event.getRegistry().register(netherStarBlock.setRegistryName("nether_star"));
+            blocks.add(netherStarBlock);
+        }
 
-        Block refinedRadianceBlock = new Refined_Radiance_Block();
-        event.getRegistry().register(refinedRadianceBlock.setRegistryName("refined_radiance_block"));
-        blocks.add(refinedRadianceBlock);
+        if(Config.isRefinedRadianceBlockEnabled()) {
+            Block refinedRadianceBlock = new Refined_Radiance_Block();
+            event.getRegistry().register(refinedRadianceBlock.setRegistryName("refined_radiance_block"));
+            blocks.add(refinedRadianceBlock);
+        }
 
-        Block shadowSteelBlock = new Shadow_Steel_Block();
-        event.getRegistry().register(shadowSteelBlock.setRegistryName("shadow_steel_block"));
-        blocks.add(shadowSteelBlock);
+        if(Config.isShadowSteelBlockEnabled())
+        {
+            Block shadowSteelBlock = new Shadow_Steel_Block();
+            event.getRegistry().register(shadowSteelBlock.setRegistryName("shadow_steel_block"));
+            blocks.add(shadowSteelBlock);
+        }
     }
 
     private static void registerItems(RegistryEvent.Register<Item> event) {
