@@ -93,11 +93,9 @@ public enum CreateCompressionType {
 
     public final String name;
     public final Supplier<Block> factory;
-    public final List<Block> blocks;
 
     CreateCompressionType(String n, Supplier<Block> f) {
         name = n;
         factory = f;
-        blocks = new ArrayList<>();
     }
 }

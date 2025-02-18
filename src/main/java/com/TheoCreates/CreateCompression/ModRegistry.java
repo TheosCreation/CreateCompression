@@ -10,22 +10,27 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
+import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ModRegistry {
     private ModRegistry() {
-        // nothing to do
     }
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CreateCompression.MODID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, CreateCompression.MODID);
+
+    public static final List<Block> blocks = new ArrayList<>();
 
     public static final CreativeModeTab CREATIVE_TAB = new CreativeModeTab(CreateCompression.MODID) {
         private static final Supplier<Item> ITEM_SUPPLIER = Suppliers.memoize(
@@ -37,23 +42,43 @@ public class ModRegistry {
         }
     };
 
-    public static void registerStandardBlocks() {
-        RegistryObject<Block> nether_star = BLOCKS.register("nether_star", Nether_Star_Block::new);
-        blockItem(nether_star);
-        RegistryObject<Block> refined_radiance_block = BLOCKS.register("refined_radiance_block", Refined_Radiance_Block::new);
-        blockItem(refined_radiance_block);
-        RegistryObject<Block> shadow_steel_block = BLOCKS.register("shadow_steel_block", Shadow_Steel_Block::new);
-        blockItem(shadow_steel_block);
+    public static void register() {
+
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        eventBus.addGenericListener(Block.class, ModRegistry::registerBlocks);
+        eventBus.addGenericListener(Item.class, ModRegistry::registerItems);
+        eventBus.addListener(ModRegistry::clientSetup);
     }
 
-    /**
-     * Register a BlockItem for a Block
-     *
-     * @param registryObject the Block
-     * @return the new registry object
-     */
-    private static RegistryObject<BlockItem> blockItem(RegistryObject<Block> registryObject) {
-        return ITEMS.register(registryObject.getId().getPath(),
-            () -> new BlockItem(registryObject.get(), new Item.Properties().tab(CREATIVE_TAB)));
+    private static void clientSetup(FMLClientSetupEvent event) {
+        CreateCompressionClient.setupItemVar();
+    }
+
+    private static void registerBlocks(RegistryEvent.Register<Block> event) {
+        for (CreateCompressionType type : CreateCompressionType.VALUES) {
+            for (int i = 0; i < 9; i++) {
+                Block block = type.factory.get();
+                event.getRegistry().register(block.setRegistryName("compressed_" + type.name + "_" + (i + 1) + "x"));
+                blocks.add(block);
+            }
+        }
+
+        Block netherStarBlock = new Nether_Star_Block();
+        event.getRegistry().register(netherStarBlock.setRegistryName("nether_star"));
+        blocks.add(netherStarBlock);
+
+        Block refinedRadianceBlock = new Refined_Radiance_Block();
+        event.getRegistry().register(refinedRadianceBlock.setRegistryName("refined_radiance_block"));
+        blocks.add(refinedRadianceBlock);
+
+        Block shadowSteelBlock = new Shadow_Steel_Block();
+        event.getRegistry().register(shadowSteelBlock.setRegistryName("shadow_steel_block"));
+        blocks.add(shadowSteelBlock);
+    }
+
+    private static void registerItems(RegistryEvent.Register<Item> event) {
+        for (Block block : blocks) {
+            event.getRegistry().register(new BlockItem(block, new Item.Properties().tab(CREATIVE_TAB)).setRegistryName(block.getRegistryName()));
+        }
     }
 }
