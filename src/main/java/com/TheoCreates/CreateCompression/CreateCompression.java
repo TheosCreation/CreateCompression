@@ -12,6 +12,7 @@ public class CreateCompression {
     @SuppressWarnings("java:S1118")
     public CreateCompression() {
         LOGGER.info("Registering mod: {}", MODID);
-        ModRegistry.register();
+        Config.register();
+        ModRegistry.registerStatic();
     }
 }

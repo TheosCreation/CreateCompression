@@ -22,7 +22,7 @@ public enum CreateCompressionType {
     ZINC("zinc", Zinc::new),
 
     // New Blocks
-    NETHER_STAR("nether_star", Nether_Star::new),
+    NETHER_STAR("nether_star", Nether_Star_Block::new),
 
     //Minecraft
     ACACIA_LOG("acacia_log", Acacia_Log::new),
@@ -33,6 +33,7 @@ public enum CreateCompressionType {
     BIRCH_LOG("birch_log", Birch_Log::new),
     BIRCH_PLANK("birch_plank", Birch_Plank::new),
     BLACKSTONE("blackstone", Blackstone::new),
+    BONE_BLOCK("bone_block", Bone_Block::new),
     CLAY("clay", Clay::new),
     COAL("coal", Coal::new),
     COBBLED_DEEPSLATE("cobbled_deepslate", Cobbled_Deepslate::new),
