@@ -12,5 +12,7 @@ public class CreateCompression {
 
     public CreateCompression() {
         LOGGER.info("Registering mod: {}", MODID);
+
+        ModRegistry.register();
     }
 }

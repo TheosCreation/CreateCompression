@@ -28,8 +28,6 @@ public class Config {
     public static void onConfigLoad(final ModConfigEvent event) {
         if (event.getConfig().getSpec() == COMMON_CONFIG) {
             isLoaded = true;
-
-            ModRegistry.register();
         }
     }
 
