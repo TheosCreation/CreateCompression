@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
 
       "textures": {
-        "all": "createcompression:block/nether_star"
+        "all": "createcompression:block/nether_star_block"
       },
       "transform": {
         "origin": "center",
@@ -22,6 +22,6 @@
     }
   },
   "textures": {
-    "particle": "createcompression:block/nether_star"
+    "particle": "createcompression:block/nether_star_block"
   }
 }
