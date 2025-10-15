@@ -1,62 +1,66 @@
 package com.TheoCreates.CreateCompression;
 
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.ModLoadingContext;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.config.ModConfigEvent;
-
 import java.util.EnumMap;
+import java.util.Locale;
 import java.util.Map;
+
+import net.minecraftforge.fml.common.Mod;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModLoadingContext;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.event.config.ModConfigEvent;
+import net.neoforged.neoforge.common.ModConfigSpec;
 
 @Mod.EventBusSubscriber(modid = CreateCompression.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config {
 
-    // Configuration fields
-    public static final ForgeConfigSpec COMMON_CONFIG;
-    private static final Map<CreateCompressionType, ForgeConfigSpec.BooleanValue> ENABLED_BLOCKS = new EnumMap<>(CreateCompressionType.class);
-    private static final ForgeConfigSpec.IntValue MAX_COMPRESSION_LEVEL;
-    private static final ForgeConfigSpec.BooleanValue ENABLE_NETHER_STAR_BLOCK;
-    private static final ForgeConfigSpec.BooleanValue ENABLE_REFINED_RADIANCE_BLOCK;
-    private static final ForgeConfigSpec.BooleanValue ENABLE_SHADOW_STEEL_BLOCK;
+    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+
+    // General
+    public static final ModConfigSpec.IntValue MAX_COMPRESSION_LEVEL = BUILDER
+        .comment("Maximum compression level for blocks [1..9]")
+        .defineInRange("general.maxCompressionLevel", 9, 1, 9);
+
+    // Blocks
+    private static final Map<CreateCompressionType, ModConfigSpec.BooleanValue> ENABLED_BLOCKS =
+        new EnumMap<>(CreateCompressionType.class);
+
+    public static final ModConfigSpec.BooleanValue ENABLE_NETHER_STAR_BLOCK = BUILDER
+        .comment("Enable the Nether Star Block")
+        .define("blocks.enable_nether_star_block", true);
+
+    public static final ModConfigSpec.BooleanValue ENABLE_REFINED_RADIANCE_BLOCK = BUILDER
+        .comment("Enable the Refined Radiance Block")
+        .define("blocks.enable_refined_radiance_block", true);
+
+    public static final ModConfigSpec.BooleanValue ENABLE_SHADOW_STEEL_BLOCK = BUILDER
+        .comment("Enable the Shadow Steel Block")
+        .define("blocks.enable_shadow_steel_block", true);
 
     static {
-        ForgeConfigSpec.Builder COMMON_BUILDER = new ForgeConfigSpec.Builder();
-
-        // General settings
-        COMMON_BUILDER.comment("General settings").push("general");
-        MAX_COMPRESSION_LEVEL = COMMON_BUILDER
-                .comment("Maximum compression level for blocks")
-                .defineInRange("maxCompressionLevel", 9, 1, 9);
-        COMMON_BUILDER.pop();
-
-        // Block settings
-        COMMON_BUILDER.comment("Block settings").push("blocks");
+        // Per-type toggles
+        BUILDER.push("blocks");
         for (CreateCompressionType type : CreateCompressionType.values()) {
-            ForgeConfigSpec.BooleanValue enabled = COMMON_BUILDER
-                    .comment("Enable the " + type.name + " block")
-                    .define("enable" + type.name + "Block", true);
-            ENABLED_BLOCKS.put(type, enabled);
+            String key = "enable_" + type.name().toLowerCase(Locale.ROOT) + "_block";
+            ENABLED_BLOCKS.put(type, BUILDER.define(key, true));
         }
-        ENABLE_NETHER_STAR_BLOCK = COMMON_BUILDER
-                .comment("Enable the Nether Star Block")
-                .define("enableNetherStarBlock", true);
-
-        ENABLE_REFINED_RADIANCE_BLOCK = COMMON_BUILDER
-                .comment("Enable the Refined Radiance Block")
-                .define("enableRefinedRadianceBlock", true);
-        ENABLE_SHADOW_STEEL_BLOCK = COMMON_BUILDER
-                .comment("Enable the Shadow Steel Block")
-                .define("enableShadowSteelBlock", true);
-        COMMON_BUILDER.pop();
-
-        // Finalize the config object
-        COMMON_CONFIG = COMMON_BUILDER.build();
+        BUILDER.pop();
     }
 
-    // Method to safely access configuration values
+    public static final ModConfigSpec SPEC = BUILDER.build();
+
+    public static void register() {
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, SPEC);
+    }
+
+    @SubscribeEvent
+    static void onLoad(ModConfigEvent.Loading e) { /* no-op */ }
+
+    @SubscribeEvent
+    static void onReload(ModConfigEvent.Reloading e) { /* no-op */ }
+
+    // Accessors
     public static boolean isBlockEnabled(CreateCompressionType type) {
         return ENABLED_BLOCKS.get(type).get();
     }

@@ -1,25 +1,28 @@
-modLoader="javafml" #mandatory
-loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
 license="MIT"
-[[mods]] #mandatory
-modId="createcompression" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Create Compression" #mandatory
-logoFile="CreateCompression.png" #optional
-credits="Special thanks to AndromedaGalaxy29 for art assets" #optional
-authors="TheoCreates" #optional
+
+[[mods]]
+modId="createcompression"
+version="${mod_version}"
+displayName="Create Compression"
+logoFile="CreateCompression.png"
+credits="Special thanks to AndromedaGalaxy29 for art assets"
+authors="TheoCreates"
 description='''
 adds 1-9x compressed versions of blocks, and recipes.
 '''
-[[dependencies.createcompression]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[39,)" #mandatory
-    ordering="NONE"
-    side="BOTH"
+
 [[dependencies.createcompression]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.18.1,1.19)"
-    ordering="NONE"
-    side="BOTH"
+modId="neoforge"
+type="required"
+versionRange="${neo_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.createcompression]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"

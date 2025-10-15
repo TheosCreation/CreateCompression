@@ -10,7 +10,7 @@ public class CreateCompression {
 
 
     public CreateCompression() {
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.COMMON_CONFIG);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
         ModRegistry.register();
     }
 }
