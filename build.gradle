@@ -94,6 +94,12 @@ dependencies {
 
     // Registrate
     implementation("com.tterrag.registrate:Registrate:${registrate_version}")
+
+    // JEI
+    compileOnly "mezz.jei:jei-1.21.1-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:${jei_version}"
+
+    localRuntime "mezz.jei:jei-1.21.1-neoforge:${jei_version}"
 }
 
 // Expand mod metadata from templates
@@ -102,6 +108,7 @@ var generateModMetadata = tasks.register("generateModMetadata", ProcessResources
         minecraft_version      : minecraft_version,
         minecraft_version_range: minecraft_version_range,
         neo_version            : neo_version,
+        neo_version_range      : neo_version_range,
         loader_version_range   : loader_version_range,
         mod_id                 : mod_id,
         mod_name               : mod_name,

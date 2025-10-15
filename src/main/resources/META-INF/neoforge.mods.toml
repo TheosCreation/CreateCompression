@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="createcompression"
+version="1.8.3"
+displayName="Create Compression"
+authors="TheoCreates"
+description="adds 1-9x compressed versions of blocks, and recipes."
+
+[[dependencies.createcompression]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+
+[[dependencies.createcompression]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
