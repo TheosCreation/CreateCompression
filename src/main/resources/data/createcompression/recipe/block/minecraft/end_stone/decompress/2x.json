@@ -8,14 +8,5 @@
   "result": {
     "id": "createcompression:compressed_end_stone_1x",
     "count": 9
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:mod_loaded",
-        "modid": "compressium"
-      }
-    }
-  ]
+  }
 }

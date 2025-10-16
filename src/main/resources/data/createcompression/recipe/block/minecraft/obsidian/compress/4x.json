@@ -13,14 +13,5 @@
   "result": {
     "id": "createcompression:compressed_obsidian_4x",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:mod_loaded",
-        "modid": "compressium"
-      }
-    }
-  ]
+  }
 }

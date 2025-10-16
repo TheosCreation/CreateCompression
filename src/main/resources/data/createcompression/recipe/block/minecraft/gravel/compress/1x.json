@@ -7,20 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:gravel"
+      "item": "minecraft:gravel"
     }
   },
   "result": {
     "id": "createcompression:compressed_gravel_1x",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:mod_loaded",
-        "modid": "compressium"
-      }
-    }
-  ]
+  }
 }

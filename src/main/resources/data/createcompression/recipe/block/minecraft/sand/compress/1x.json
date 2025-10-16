@@ -7,20 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:sand/colorless"
+      "item": "minecraft:sand"
     }
   },
   "result": {
     "id": "createcompression:compressed_sand_1x",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:mod_loaded",
-        "modid": "compressium"
-      }
-    }
-  ]
+  }
 }

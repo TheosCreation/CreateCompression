@@ -7,20 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:cobblestone"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {
     "id": "createcompression:compressed_cobblestone_1x",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:mod_loaded",
-        "modid": "compressium"
-      }
-    }
-  ]
+  }
 }

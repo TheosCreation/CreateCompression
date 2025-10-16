@@ -7,20 +7,11 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:sand/red"
+      "item": "minecraft:red_sand"
     }
   },
   "result": {
     "id": "createcompression:compressed_red_sand_1x",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:not",
-      "value": {
-        "type": "forge:mod_loaded",
-        "modid": "compressium"
-      }
-    }
-  ]
+  }
 }
