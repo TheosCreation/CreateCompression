@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_bone_block_1x"
+    }
+  },
+  "result": {
+    "id": "createcompression:compressed_bone_block_2x",
+    "count": 1
+  }
+}

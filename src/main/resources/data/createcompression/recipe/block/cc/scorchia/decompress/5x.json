@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_scorchia_5x"
+    }
+  ],
+  "result": {
+    "id": "createcompression:compressed_scorchia_4x",
+    "count": 9
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

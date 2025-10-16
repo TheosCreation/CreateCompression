@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_raw_copper_8x"
+    }
+  ],
+  "result": {
+    "id": "createcompression:compressed_raw_copper_7x",
+    "count": 9
+  }
+}

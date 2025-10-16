@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_nether_star_1x"
+    }
+  ],
+  "result": {
+    "id": "createcompression:nether_star_block",
+    "count": 9
+  }
+}
