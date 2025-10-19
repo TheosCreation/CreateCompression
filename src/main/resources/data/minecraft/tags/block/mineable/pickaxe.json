@@ -1,7 +1,5 @@
 {
-  "replace": false,
   "values": [
-
     "createcompression:compressed_amethyst_1x",
     "createcompression:compressed_amethyst_2x",
     "createcompression:compressed_amethyst_3x",
@@ -365,5 +363,6 @@
     "createcompression:compressed_veridium_7x",
     "createcompression:compressed_veridium_8x",
     "createcompression:compressed_veridium_9x"
-  ]
+  ],
+  "replace": false
 }

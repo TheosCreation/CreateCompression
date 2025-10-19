@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "createcompression:compressed_soul_sand_1x",
     "createcompression:compressed_soul_sand_2x",
