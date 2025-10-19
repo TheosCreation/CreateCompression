@@ -5,5 +5,8 @@
   "ingredient": {
     "item": "createcompression:compressed_cobblestone_9x"
   },
-  "result": "createcompression:compressed_stone_9x"
+  "result": {
+    "count": 1,
+    "id": "createcompression:compressed_stone_9x"
+  }
 }

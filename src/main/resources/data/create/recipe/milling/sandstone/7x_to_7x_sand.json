@@ -8,20 +8,20 @@
   "processingTime": 250,
   "results": [
     {
-      "item": "createcompression:compressed_sand_7x"
+      "id": "createcompression:compressed_sand_7x"
     }
   ],
-  "conditions": [{
-    "type": "forge:and",
+  "neoforge:conditions": [{
+    "type": "neoforge:and",
     "values": [{
-      "type": "forge:not",
+      "type": "neoforge:not",
       "value": {
-        "type": "forge:mod_loaded",
+        "type": "neoforge:mod_loaded",
         "modid": "compressium"
       }
     },
       {
-        "type": "forge:mod_loaded",
+        "type": "neoforge:mod_loaded",
         "modid": "create"
       }
     ]

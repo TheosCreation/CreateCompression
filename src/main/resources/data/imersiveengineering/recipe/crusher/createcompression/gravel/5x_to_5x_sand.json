@@ -2,23 +2,23 @@
   "type": "immersiveengineering:crusher",
   "secondaries": [],
   "result": {
-      "item": "createcompression:compressed_sand_5x"
+      "id": "createcompression:compressed_sand_5x"
   },
   "input": {
       "item": "createcompression:compressed_gravel_5x"
   },
   "energy": 9600,
-  "conditions": [{
-      "type": "forge:and",
+  "neoforge:conditions": [{
+      "type": "neoforge:and",
       "values": [{
-              "type": "forge:not",
+              "type": "neoforge:not",
               "value": {
-                  "type": "forge:mod_loaded",
+                  "type": "neoforge:mod_loaded",
                   "modid": "compressium"
               }
           },
           {
-              "type": "forge:mod_loaded",
+              "type": "neoforge:mod_loaded",
               "modid": "immersiveengineering"
           }
       ]

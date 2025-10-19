@@ -5,5 +5,8 @@
   "ingredient": {
     "item": "createcompression:compressed_cobbled_deepslate_9x"
   },
-  "result": "createcompression:compressed_deepslate_9x"
+  "result": {
+    "count": 1,
+    "id": "createcompression:compressed_deepslate_9x"
+  }
 }

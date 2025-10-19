@@ -14,9 +14,9 @@
     "id": "createcompression:compressed_ochrum_4x",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "create"
     }
   ]

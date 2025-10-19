@@ -9,9 +9,9 @@
     "id": "createcompression:compressed_scorchia_1x",
     "count": 9
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
-      "type": "forge:mod_loaded",
+      "type": "neoforge:mod_loaded",
       "modid": "create"
     }
   ]

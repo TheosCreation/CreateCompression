@@ -5,5 +5,8 @@
   "ingredient": {
     "item": "createcompression:compressed_sand_2x"
   },
-  "result": "createcompression:compressed_glass_2x"
+  "result": {
+    "count": 1,
+    "id": "createcompression:compressed_glass_2x"
+  }
 }

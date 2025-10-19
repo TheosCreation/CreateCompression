@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "createcompression:compressed_sandstone_7x"
+    }
+  },
+  "result": {
+    "id": "createcompression:compressed_sandstone_8x",
+    "count": 1
+  }
+}

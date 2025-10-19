@@ -5,6 +5,9 @@
   "ingredient": {
     "item": "createcompression:compressed_sand_4x"
   },
-  "result": "createcompression:compressed_glass_4x"
+  "result": {
+    "count": 1,
+    "id": "createcompression:compressed_glass_4x"
+  }
 }
 

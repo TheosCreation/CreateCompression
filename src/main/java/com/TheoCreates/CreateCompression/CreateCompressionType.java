@@ -74,6 +74,7 @@ public enum CreateCompressionType {
     RAW_IRON("raw_iron", Raw_Iron::new),
     RAW_GOLD("raw_gold", Raw_Gold::new),
     SAND("sand", Sand::create),
+    SANDSTONE("sandstone", Sandstone::new),
     RED_SAND("red_sand", Red_Sand::create),
     REDSTONE("redstone", Redstone::new),
     SNOW("snow", Snow::new),
