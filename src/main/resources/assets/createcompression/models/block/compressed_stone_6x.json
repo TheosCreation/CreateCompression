@@ -7,10 +7,6 @@
       "render_type": "minecraft:solid",
       "textures": {
         "all": "block/stone"
-      },
-      "transform": {
-        "origin": "center",
-        "scale": 1
       }
     },
     "translucent": {

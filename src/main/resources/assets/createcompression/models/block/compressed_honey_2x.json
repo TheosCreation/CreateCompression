@@ -74,11 +74,7 @@
             }
           }
         }
-      ],
-      "transform": {
-        "origin": "center",
-        "scale": 1
-      }
+      ]
     },
     "translucent": {
       "parent": "block/cube_all",

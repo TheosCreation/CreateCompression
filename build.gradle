@@ -96,10 +96,10 @@ dependencies {
     implementation("com.tterrag.registrate:Registrate:${registrate_version}")
 
     // JEI
-    compileOnly "mezz.jei:jei-1.21.1-common-api:${jei_version}"
-    compileOnly "mezz.jei:jei-1.21.1-neoforge-api:${jei_version}"
+    compileOnly "mezz.jei:jei-1.20.1-common-api:${jei_version}"
+    compileOnly "mezz.jei:jei-1.20.1-neoforge-api:${jei_version}"
 
-    localRuntime "mezz.jei:jei-1.21.1-neoforge:${jei_version}"
+    localRuntime "mezz.jei:jei-1.20.1-neoforge:${jei_version}"
 }
 
 // Expand mod metadata from templates

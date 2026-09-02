@@ -7,10 +7,6 @@
       "render_type": "minecraft:solid",
       "textures": {
         "all": "minecraft:block/diorite"
-      },
-      "transform": {
-        "origin": "center",
-        "scale": 1
       }
     },
     "translucent": {

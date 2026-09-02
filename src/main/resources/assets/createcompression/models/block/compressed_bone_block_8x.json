@@ -8,10 +8,6 @@
       "textures": {
         "end": "minecraft:block/bone_block_top",
         "side": "minecraft:block/bone_block_side"
-      },
-      "transform": {
-        "origin": "center",
-        "scale": 1
       }
     },
     "translucent": {

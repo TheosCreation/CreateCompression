@@ -7,10 +7,6 @@
       "render_type": "minecraft:cutout",
       "textures": {
         "all": "block/glass"
-      },
-      "transform": {
-        "origin": "center",
-        "scale": 1
       }
     },
     "translucent": {
