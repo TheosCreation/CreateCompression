@@ -12,10 +12,6 @@
         "south": "block/quartz_block_side",
         "east": "block/quartz_block_side",
         "west": "block/quartz_block_side"
-      },
-      "transform": {
-        "origin": "center",
-        "scale": 1
       }
     },
     "translucent": {
