@@ -17,7 +17,7 @@
       "parent": "block/cube_all",
 
       "textures": {
-        "all": "createcompression:block/layer_8"
+        "all": "createcompression:block/layer_7"
       }
     }
   },
