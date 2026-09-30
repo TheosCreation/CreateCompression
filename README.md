@@ -62,6 +62,7 @@ Vanilla
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/red_sand.png) Red Sand
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/redstone_block.png) Redstone
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/sand.png) Sand
+- ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/sandstone.png) Sandstone
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/snow.png) Snow
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/soul_sand.png) Soul Sand
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/soul_soil.png) Soul Soil
@@ -88,4 +89,5 @@ Create
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/scorchia.png) Scorchia
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/scoria.png) Scoria
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/veridium.png) Veridium
+- ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/raw_zinc_block.png) Raw Zinc
 - ![](https://github.com/TheosCreation/CreateCompression/blob/1.19/images/zinc_block.png) Zinc

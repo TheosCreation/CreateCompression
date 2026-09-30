@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "createcompression:compressed_raw_zinc_3x"
+    }
+  ],
+  "result": {
+    "id": "createcompression:compressed_raw_zinc_2x",
+    "count": 9
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ]
+}

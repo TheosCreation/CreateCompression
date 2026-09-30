@@ -19,6 +19,7 @@ public enum CreateCompressionType {
     SCORCHIA("scorchia", Scorchia::new),
     SCORIA("scoria", Scoria::new),
     VERIDIUM("veridium", Veridium::new),
+    RAW_ZINC("raw_zinc", Raw_Zinc::new),
     ZINC("zinc", Zinc::new),
 
     // New Blocks
